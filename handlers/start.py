@@ -11,7 +11,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm MUSIC BOT🎵
 
-I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [TANAJI🤠](https://t.me/XD_PERSON)
+I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [RUPAYAN🤠](https://t.me/Rupayan_Iz_Here)
 
 Add me to your group and play music freely😆!**
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely😆!**
             [
                 [
                     InlineKeyboardButton(
-                        "📠 Source Code 📠", url="https://github.com/tana9373/MARATHA_WARRIOR_MUSIC")
+                        "📠 Source Code 📠", url="https://t.me/Empire_Support21")
                   ],[
                     InlineKeyboardButton(
-                        "📢 SUPPORT GROUP 📢", url="https://t.me/MARATHIWARRIORS"
+                        "📢 SUPPORT GROUP 📢", url="https://t.me/Empire_Support21"
                     ),
                     InlineKeyboardButton(
-                        "🔰 COMMAND 🔰", url="https://t.me/MARATH_IWARRIORS/18"
+                        "🔰 COMMAND 🔰", url="https://t.me/Empire_Network"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "GROUP ME LEJAO 😆", url="https://t.me/MARATHA_WARRIOR_MUSIC_1_BOT?startgroup=true"
+                        "❤ ADD ME TO YOUR GROUP ❤", url="http://t.me/AmeliaMusic_bot?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely😆!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**#MARATHI_WARRIORS_ON_FIRE**""",
+      await message.reply_text("""**#EMPIRE_WARRIORS_ON_FIRE**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔰 COMMANDS 🔰", url="https://t.me/MARATH_IWARRIORS/18")
+                        "🔰 COMMANDS 🔰", url="https://t.me/Empire_Network")
                 ]
             ]
         )
