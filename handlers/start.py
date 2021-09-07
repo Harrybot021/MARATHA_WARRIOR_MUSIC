@@ -7,9 +7,9 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_photo("https://telegra.ph/file/632730fba83716c858045.jpg")
+    await message.reply_photo("https://telegra.ph/file/62fd18fcfa1157f9b52a3.jpg")
     await message.reply_text(
-        f"""**Hey, I'm MUSIC BOT🎵
+        f"""**Hey, I'm AMELIA MUSIC BOT🎵
 
 I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [RUPAYAN🤠](https://t.me/Rupayan_Iz_Here)
 
