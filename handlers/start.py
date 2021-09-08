@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_photo("https://telegra.ph/file/f483b492adb7796fd7224.jpg")
+    await message.reply_photo("https://telegra.ph/file/7595627c6ab4bf684e875.jpg")
     await message.reply_text(
         f"""**Hey, I'm AMELIA MUSIC BOT🎵
 
@@ -19,17 +19,17 @@ Add me to your group and play music freely😆!**
             [
                 [
                     InlineKeyboardButton(
-                        "📠 Source Code 📠", url="https://t.me/Empire_Support21")
+                        "🔱 OWNER 🔱", url="https://t.me/Rupayan_02Roy")
                   ],[
                     InlineKeyboardButton(
                         "📢 SUPPORT GROUP 📢", url="https://t.me/Empire_Support21"
                     ),
                     InlineKeyboardButton(
-                        "🔰 COMMAND 🔰", url="https://t.me/Empire_Network"
+                        "🔰 SUPPORT CHANNEL 🔰", url="https://t.me/Empire_Network"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❤ ADD ME TO YOUR GROUP ❤", url="http://t.me/AmeliaMusic_bot?startgroup=true"
+                        "❤ ADD ME TO YOUR GROUP ❤", url="http://t.me/AmeliaMusic_Robot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔰 COMMANDS 🔰", url="https://t.me/Empire_Network")
+                        "🔰 SUPPORT CHANNEL 🔰", url="https://t.me/Empire_Network")
                 ]
             ]
         )
